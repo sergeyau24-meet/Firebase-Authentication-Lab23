@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {%for i in p.keys()%}
+    <h4>{{p[i]['title']}}</h4>
+    <p>{{p[i]['tweet']}}</p>
+    {%endfor%}
+</body>
+</html>
